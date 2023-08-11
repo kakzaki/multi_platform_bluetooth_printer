@@ -47,5 +47,12 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>UIBackgroundModes</key>
+    <array>
+      <string>bluetooth-central</string>
+    </array>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Need BLE permission for...</string>
 </dict>
 </plist>

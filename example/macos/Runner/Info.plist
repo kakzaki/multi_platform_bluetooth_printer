@@ -28,5 +28,14 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Need BLE permission for...</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Need full Bluetooth for...</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>bluetooth-central</string>
+    </array>
 </dict>
 </plist>
